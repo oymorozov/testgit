@@ -10,6 +10,6 @@ public class DragAndDropTest {
         actions().dragAndDrop($("#column-a"), $("#column-b")).perform();
         $("#column-a").shouldHave(text("B"));
         $("#column-b").shouldHave(text("A"));
-        sleep(5000);
+        sleep(6000);
     }
 }
